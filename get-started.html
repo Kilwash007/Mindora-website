@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get started — Mindora</title>
+  <meta name="description" content="Start with Mindora on the web portal today — WhatsApp and USSD coming soon. Licensed professionals can apply to join.">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <meta name="theme-color" content="#1A365D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/js/tw-config.js"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body class="bg-mist font-sans text-ink">
+  <div data-include="header"></div>
+
+  <main id="main">
+    <section class="mx-auto max-w-site px-5 pb-10 pt-14 lg:px-8 lg:pt-20">
+      <h1 class="max-w-3xl font-display text-5xl leading-[1.05] sm:text-6xl">Get started with Mindora</h1>
+      <p class="mt-6 max-w-xl text-lg text-ink/75">Choose the side that fits you. Looking for support, or a licensed professional ready to see clients.</p>
+    </section>
+
+    <!-- Patient side -->
+    <section class="mx-auto max-w-site px-5 py-10 lg:px-8" aria-labelledby="patients">
+      <div class="rounded-[2rem] bg-white p-8 lg:p-12">
+        <h2 id="patients" class="font-display text-4xl">I'm looking for support</h2>
+        <p class="mt-3 max-w-xl text-ink/70">Three ways to reach Mindora. The web portal is open now; WhatsApp and USSD are being built.</p>
+
+        <div class="mt-10 grid gap-6 lg:grid-cols-3">
+          <div class="rounded-3xl bg-mist p-7">
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="font-display text-2xl">Web portal</h3>
+              <span class="rounded-full bg-pine px-3 py-1 text-xs text-white">Available</span>
+            </div>
+            <ul class="mt-4 space-y-2 text-ink/75">
+              <li>Wellbeing check-in</li>
+              <li>Choose and book a professional</li>
+              <li>Secure video sessions</li>
+              <li>Messages between sessions</li>
+            </ul>
+            <div class="mt-7 grid gap-2">
+              <a data-link="patient-signup" href="#" class="rounded-full bg-pine px-5 py-3 text-center text-white hover:bg-ink">Create an account</a>
+              <a data-link="patient-portal" href="#" class="rounded-full border border-pine px-5 py-3 text-center text-pine hover:bg-white">Sign in</a>
+            </div>
+          </div>
+
+          <div class="rounded-3xl border border-ink/10 p-7">
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="font-display text-2xl">WhatsApp</h3>
+              <span class="rounded-full bg-dawn px-3 py-1 text-xs text-honey">Coming soon</span>
+            </div>
+            <ul class="mt-4 space-y-2 text-ink/60">
+              <li>Check-in by chat</li>
+              <li>Book a session</li>
+              <li>Pay by M-Pesa prompt</li>
+              <li>Continue on the web portal anytime</li>
+            </ul>
+            <div class="mt-7 grid gap-2">
+              <span class="btn-disabled rounded-full border border-ink/30 px-5 py-3 text-center" aria-disabled="true">Chat on WhatsApp</span>
+            </div>
+          </div>
+
+          <div class="rounded-3xl border border-ink/10 p-7">
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="font-display text-2xl">USSD</h3>
+              <span class="rounded-full bg-dawn px-3 py-1 text-xs text-honey">Coming soon</span>
+            </div>
+            <ul class="mt-4 space-y-2 text-ink/60">
+              <li>Works on any phone</li>
+              <li>No internet needed</li>
+              <li>Request a call-back or booking</li>
+              <li>Pay by M-Pesa prompt</li>
+            </ul>
+            <div class="mt-7 grid gap-2">
+              <span class="btn-disabled rounded-full border border-ink/30 px-5 py-3 text-center" aria-disabled="true">Short code to be announced</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-8 text-sm text-ink/60">Want to know when WhatsApp and USSD go live? <a href="contact.html?topic=support" class="text-pine underline">Send us a message</a>.</p>
+      </div>
+    </section>
+
+    <!-- Professional side -->
+    <section class="mx-auto max-w-site px-5 pb-24 pt-10 lg:px-8" aria-labelledby="pros">
+      <div class="grid gap-10 rounded-[2rem] bg-pine p-8 text-white lg:grid-cols-[1.2fr_1fr] lg:p-12">
+        <div>
+          <h2 id="pros" class="font-display text-4xl">I'm a licensed professional</h2>
+          <p class="mt-4 max-w-xl text-white/80">Counsellors and psychologists see clients online through Mindora. You set your focus areas, languages, fee and availability; Mindora handles booking, video links, reminders and payments.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a data-link="pro-join" href="#" class="rounded-full bg-white px-6 py-3 text-pine hover:bg-dawn">Apply to join</a>
+            <a data-link="pro-portal" href="#" class="rounded-full border border-white/70 px-6 py-3 hover:bg-white/10">Professional sign in</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-display text-2xl">How verification works</h3>
+          <ol class="mt-4 list-decimal space-y-3 pl-5 text-white/85">
+            <li>Create your professional account.</li>
+            <li>Upload your practising licence, national ID and degree certificate.</li>
+            <li>Our team reviews your documents and accepts or asks for more.</li>
+            <li>Accept the professional agreement and go live in the directory.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer"></div>
+</body>
+</html>
