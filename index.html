@@ -22,6 +22,13 @@
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/tailwind.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* On phones and tablets the breathing guide sits above the hero text, in the page flow,
+       instead of floating in the corner where longer text can run underneath it. */
+    @media (max-width: 1023px) {
+      [data-breath] { position: relative !important; top: auto !important; right: auto !important; align-self: flex-end; margin-bottom: 1.5rem; }
+    }
+  </style>
   <script src="assets/js/site.js" defer></script>
 </head>
 <body class="bg-mist font-sans text-ink">
