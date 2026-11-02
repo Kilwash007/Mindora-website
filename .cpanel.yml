@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/djwllbtw/mindora.africa/
     - /bin/cp *.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
